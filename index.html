@@ -1,0 +1,964 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Студия дизайна</title>
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/slick.css">
+    <link rel="stylesheet" href="styles/slick-theme.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="styles/hover-min.css">
+    <link rel="stylesheet" href="styles/magnific-popup.css">
+    <link rel="stylesheet/less" href="styles/style.less">
+    <link rel="stylesheet/less" href="styles/adaptive.less">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+</head>
+<body>
+
+<section class="main-page">
+    <div class="container">
+        <header class="header d-flex justify-content-between mt-3">
+            <div class="container-fluid">
+                <nav class="navbar navbar-expand-md" role="navigation">
+                    <img src="images/logo.png" alt="Logo">
+
+                    <div class="phone">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                             width="18"
+                             height="18"
+                             viewBox="0 0 18 18">
+                            <image id="phone-call" width="18" height="18"
+                                   xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAABQ0lEQVQ4jZXTsUtWURjH8Y8aakivbga+uIUNOQkOjg6CKOQiYjg4uBQ0N7S3tBnUIKI46OAgrqJOidig6WJ/gEtERKFDmCEHzoXL5bz6nt90+T3nfO+P8zxPS71ehzYsYg77mMdvGWqNkDW8Qg1T2EF3Lug9XlT84VxYAM02qAXYhxxQxx31Jzmgswa1C7zNAW0l/HM8jR1sGrSSaPUhrpqFFKA/eFfxx/EwB9RWq4XRcYTneBz9R3iA3ZxEQf8wg8tS7Q1eJu6Mxx9vlOesSBT0E98wjZboTaAHn3Edv0PKATzDKDbxt9i1shawVPF+YA8j6K/UvmCsnKjQcZyhyVKyrpggtTJ9GEyBgk5wGmHtqQMV9RaPndI2hvC1CdBqo0SFQgOW43CGJe5MnFkP3b0PFPQfB/iE7/G9wqVf+IjXuLkF4Og3HmlIiIsAAAAASUVORK5CYII="/>
+                        </svg>
+                        <button style="border: 0" class="navbar-toggler" type="button" data-toggle="collapse"
+                                data-target="#navbar"
+                                aria-controls="navbarSupportedContent" aria-expanded="false"
+                                aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+
+                    <div class="navbar-collapse collapse in justify-content-between" aria-expanded="true" id="navbar">
+                        <ul class="nav navbar-nav align-items-center">
+
+                            <li class="nav-item nav-item-1 d-flex align-items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                     width="16"
+                                     height="20"
+                                     viewBox="0 0 16 20">
+                                    <image id="pin" width="16" height="20"
+                                           xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAUCAYAAACEYr13AAAB2UlEQVQ4jXXTS4iOYRQH8J+PTEmf62TzUdTYjGsxNa5ZuKwol4VLCFtZ21jYKCu5FSsRG5eiJGYiiSmzcA0liRCDBaJs0NF59fbO619Pz9N5zv38z5BWq6WCWdiGJZiYX29xG6dwq6w+rPQeiSPYnEqn8Qy/0ZEOb+IStuNzGBUZNNGDCdiSinWYnY4bWIiPhYOzmIsFeJOG0zAv33fwON+j0IfXWBElLMZazE/jETiBdXieRh0ZZCu+YD3uYXkj67mRUQLHMnIXpubpStnx1HmAK1FuI9O+nB+TsAk70F/qQX8G2pg6gV50h4NxeJXCzrx7ahrYW9EJmzHh4AfGpvB93lNqHBSyD3mHzc9G1tNdqu0JDqCtZNyWsvi7n7LoycMYY7DuECZjADNwLbt9PpXXYDSWhhHa8RK7wsHwFD7F6mTeeOwsZdaXQT4F+XAhedJZEGlO0ncf9tbUX8Ye7MaimM7QZjNY7F2mdBCPMps6RIZHk1BXVZbpTNYfG/ciG1rGTJzE/tT9i+o6x1QuYnqybyDl7UmmyG4VfpUNyoiPDfiOc4gGx4lphCyY+M+4WkKBb1iJuzicU4mOx7Z+rSrXOQhED2Ibgw+BZSkbhP85CFwPopTeg4E/ydxrdK6DNMQAAAAASUVORK5CYII="/>
+                                </svg>
+                                <p class="mb-auto">г. Киев, ул. Гоголя 3</p>
+                            </li>
+
+                            <li class="nav-item nav-item-2 d-flex align-items-center">
+                                <div class="d-flex">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                         width="18"
+                                         height="18"
+                                         viewBox="0 0 18 18">
+                                        <image id="phone-call" width="18" height="18"
+                                               xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAABQ0lEQVQ4jZXTsUtWURjH8Y8aakivbga+uIUNOQkOjg6CKOQiYjg4uBQ0N7S3tBnUIKI46OAgrqJOidig6WJ/gEtERKFDmCEHzoXL5bz6nt90+T3nfO+P8zxPS71ehzYsYg77mMdvGWqNkDW8Qg1T2EF3Lug9XlT84VxYAM02qAXYhxxQxx31Jzmgswa1C7zNAW0l/HM8jR1sGrSSaPUhrpqFFKA/eFfxx/EwB9RWq4XRcYTneBz9R3iA3ZxEQf8wg8tS7Q1eJu6Mxx9vlOesSBT0E98wjZboTaAHn3Edv0PKATzDKDbxt9i1shawVPF+YA8j6K/UvmCsnKjQcZyhyVKyrpggtTJ9GEyBgk5wGmHtqQMV9RaPndI2hvC1CdBqo0SFQgOW43CGJe5MnFkP3b0PFPQfB/iE7/G9wqVf+IjXuLkF4Og3HmlIiIsAAAAASUVORK5CYII="/>
+                                    </svg>
+                                    <p class="mb-auto">+38 (29) 193-23-46</p>
+                                </div>
+                                <div class="nav-item nav-item-button hvr-grow">
+                                    <a class="hdr-btn pb-1" href="#popup-header">Заказать звонок</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                </nav>
+            </div>
+        </header>
+    </div>
+
+    <section class="page-two">
+        <div class="container d-flex justify-content-between ">
+            <div class="main-info wow animate__backInRight">
+                <div class="main-title">
+                    <h1>Разработаем уникальный дизайн-проект для квартиры или дома </h1>
+                </div>
+                <div class="main-text">
+                    Экспертность и философия STUDIO88 создает функциональные проекты для наслаждения
+                    жизнью по всему миру.
+
+                </div>
+                <div class="main-button">
+                    <a href="#page-4" class="main-btn hvr-grow">Посмотреть портфолио</a>
+                </div>
+            </div>
+
+            <div class="main-image wow animate__backInLeft">
+                <div class="main-img-1">
+                    <img src="images/main-img.png" alt="Стол">
+                </div>
+                <div class="main-img-2">
+                    <img src="images/main-img-2.png" alt="Светильник">
+                </div>
+            </div>
+        </div>
+    </section>
+</section>
+
+
+<section class="page-3">
+    <div class="container container-sm wow animate__fadeInDown">
+        <div class="page-3-title pb-5">
+            <h2>Мы делаем любой дизайн</h2>
+        </div>
+
+        <div class="row row-cols-2 row-cols-sm-2 page-3-items">
+
+            <div class="col page-3-item rounded-start">
+                <div class="item-image ">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50"
+                         height="46" viewBox="0 0 50 46">
+                        <image id="home" width="50" height="46"
+                               xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAuCAYAAABqK0pRAAAFcklEQVRogd2Zf4hVRRTHP/fufctmv4zsl9q2WBQRidkvSyktyoIkDftd9OgnlZgVkQqVCWb9lUpFBpFbWaGhYSIlWVpZUWAZCRmKq5hpFgVhuu2+fXGW743x7tz3676n2Bcu794zM2fOd87MmTPzgq2fXkUJNAMTgJNKVToA+AVYCvyT1lVUwobDgDXA+QeZRIxvgEuBvb7CqKenmNbwHpG4D1jUaCvL4AZgvmya56sabFp1RZqKb4EW4MyDZHwSP8ob5/gKo0KhxycfCgwDpmXs/AJgst5tJL/OoGsBMFu2fZ8sjLq7C75GdwA2597I0PFlwHKgS9/XAdcAH9eo703gGdn2aLIwWL/skqTMAsB2sb6yxk5jEjuA0ZKtBgZmJLNSHhkMdO9ndFdXH4+MBU6QK2tBksR26RgtMsszkGmXZ2yAV+xHpLsvEXPdX8B7dSLxsMqerwOZpbIt34dIwiPHANdqbfxdBxLPAo+r3Lw8NSMZs2kxcBvQH/gzjciN2s1fryOJ91UnJpSVjE2vO4GbgJdjYfDB/KFupa+A44FTFbXqQWKi6r0LjAOeE5nBNQaAANgM7AIuioWuR04HLgSerjOJOD+aKDJZPVPUjHlKNv+UJJLXb3sDSKD3epFpFxGzeXpMxObWg8py96hCOZh7r6+CRDVkFlc4I8zWu4FjgReDhbOGbNXHbxU0drFDyVwaiTbtxJerzSqNXocCim/NLNKaqQYDgN+jru5CKzCzQk/44CPRqrT7CMV+5HHLUM8FtqV45uIa+rc1/WTU3dVjWeNZwPgalNgOe79nOtnAHKWosk6y4cCXKst7ppnVX1mDDWZ7TzB/2kDb8m+tQUGMtx3DYnToGDAhUXep0vA2R9asdOjmDDYsjAqF4u3aWD5TNKgmx7L1sckjL6ScPiOVubABuMWmh9ZJpcgrnRoFfGHnEYsQP6hxh6JHVnwI3KsQHYdTe78aeCVFtw2Ib1DSEGfVGyzKRcX0o24WzJDRHzkDYx1vVVk9sE7Pnl5X9xQbQuRXnQ6nK1IZ5ioc765TH8v09KLULUpW7HZS+EYgpz3HvEzYwI4ajUlaV/16iYRhgOdZEoZBscLnMbUfHoZBZxXtOtUG6ai03RK1OToMgygMg2b7jsIg8A3cELnMDcVTgJ3AO47MduNBem/VntCu6FcKbQqdrVqwpqNTWUIMO2+cCMxxZHnZ1gdR2JQ6uzoSESavuyVXNsXTbkEFIXy0iLjYl9A9TPdqMxLt+nuJNKUTyQLLsT4BjkvosAAwphEdRlGUSiRKsA8VKVyZd14qIz1Paco2yVolG5DSxnS5unPq05WlRtkoiprSykYCfyRkJ3tkpTDPWWc2NV8rUdeSRp/upGx9CpFUj9i5+AXn23Khn4FXHdnsMkQmO1l1a5m6tkbcK9q7FARmOrJJaY2jXC7VI9sTEWOKyLmytHTDDmlrtVbcTHetyto8bSxqubptYR+Z6G986mIvQaRWDJPnRtVbcSmUItKSGLlIu6gr881Lu1GcBRxepS2my9XdT326spa0xlEu1xsI9io0bnbK7GpoS6L+II8siSeUxlcLm0Y+3UmZf7HLI526mHOxMbHT+vCSR/a5zuvVwgbzgTJtpqYVRLnm/6ZWv8R9784KTotzypRXAzsplusvX26xt+gM8YhOcEX98diQw0oKjq6wv+98wnhDbNHijO+UZopIOVjHb9WBxELpSssUXKzxEsnlmuwvsTP0PcJJBMtlsDFG6jlb3xMVgkvhNJWNc6JS7wGpApwiG0eoql1HbQw2rBhzIKdPwxCnKHPrvHAPJMw7D8Vp/D73359DDGY7wZbVY/8fUysMA7vls//3Dl3Arn8BWMObtrloQikAAAAASUVORK5CYII="/>
+                    </svg>
+                </div>
+                <div class="item-title">
+                    Частный дом
+                </div>
+            </div>
+
+
+            <div class=" col page-3-item">
+                <div class="item-image">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50"
+                         height="50" viewBox="0 0 50 50">
+                        <image id="urban" width="50" height="50"
+                               xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAE8ElEQVRogd2aa2gdRRSAv3vvxNZH0xif9dVqKxaf8YeoIBoVoj8iPkD/BBQs2OIP0SLqD8UogoKIFlFBsSjYoiA0NGAFQWP7QxGsj1KKj1iraNVEayu1xPuIHDkrx8ns3d3p3kvxg2XmzpnZnbMzc87M2VvZtflaMrgeGAUqWRUjeAZ4pYwbuVZrNqvOlcAA8APQKEmBKnAqMFiiIq28dS8Dvi3joUAfsKeke/2DazYzR8TnBGClvlXLn8AaoA7cpZ21yINeLfFl+IrkHpGEW4BHUmQf6Jt+OkUuyjxauJc5cI1Gs2ibmqargfc0v0pHSWROy9YDT2r+LOD1wCiWp0izUXhEEnYCn2r+p4B8ysg7TsyIHJK4evyIrFDzKVwSkF+hfkI47lAckSlNhwOyaWCv+psBvSy/HVRv2+Aa9cKKrAO2BBbuDLBb8ycDRwTa7iqz8xZXL66IWKXTjHVK2G8UORHo9+Qtlc+U0fE5nWoUXyO3Ai+nyC4CfgU+S5HfZ0xyqcSMSK+ma4Ftmped5zXAUWY/thnYoHmZavcCR3ZCCQ7S/I4DY5rvU0UsnxirNaCKdAxX/7/4kYg1knCxyS8PyJcCN2j+9NiH5MU1i4/IX5o+EJDVjVUaDviajg1/zIis0/Qwr1wc4Yfa2RHgeE8uRuCN+K62J2YbLx1+PqPO+g70tS0xioip3Qj0eOX7gAs13QEcm+Net+mVl0k9EsyZoq5V/IS4XJXYrnsrYQmwWD3+76qEnPG/LnrzNpyrBmSBPsNTJDv4kMaDxo9IlOVhr96bwN0lKjKmEZ0grjUbrUgRntK3aZEHvwhs0m3PTYH7ifF4Is9z3Gx3FFmdUr5XFbldzy8+l+dWJKJTieYbMur5vKVmWVgYiKaIkVhsfm/R2FcuYhTZpDGukNXaCpyR0q4eWqQGeUFWXsh5ukqlcCT0S+Dmoo06jatWCytytsat5nnle/Qcn4aM4oTKQjNBjgAT5veyIiHaGEWG9AqxJmX6TKrV8hf0V5p+oTJfPkFOXLUaHTO7McOPWJZl3GulXtG4Wq0TXwvmMBxQpqWHMwn0nQdcHWi3VU+ambharWNRTMvGlO8rF+i6kpPkVQH5Lxo0z1bEuVqOakEeM1uQJRl1RYmPgMf1t5zdXzNx5JpG80dMGzEoR+ftjHOu8Ihs10DbKXol/KhOzv+ckLDbO+P7iJ8ZM2WjBRUpPCLvAMe0kfvRxa4QMyKxLDVT8fDAPcQv2d1yoXixcz3Ra6QIM3qe8D8AHTDp/IA899ct1xO32CUKfz+wSH/LtuUhdWwhzgdOCpR/rKls488JyL/J26GYEZFN4du6afxDy8SMXgqcmdJm2kRfLEnEZX/K22+3yfwPrqe4IkM6n+8AXtKy54A79cx+INBmpwm1WsR/3KOmWHYKPjt0b5etSMRin6/plClL8vNSFOnVaTJu6q0y5rVfR+wF02YkZToGiV0jMWwzVqtPFbHIC7BWazCHo/2XblmtjtNNP7LQOMsFAbm8UetMQ74mFVfr3tQa1E8NluT8P6sHK18+TU6c687ud4UG73ySAMao/nnH5/PcinRpG782Q/6+XtFUJt8deha4rs0N+nVOJ39z6lWzOaVbb9QKyRr4WQ9Mi9RZlvk5WqL7sm6+12dYxl21VpEwTjsP6svk93cZdeRAVDbpfYR9fwMowCIT1bWAmwAAAABJRU5ErkJggg=="/>
+                    </svg>
+                </div>
+                <div class="item-title">
+                    Квартира
+                </div>
+            </div>
+
+            <div class=" col page-3-item">
+                <div class="item-image">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="46"
+                         height="50" viewBox="0 0 46 50">
+                        <image id="urban1" width="46" height="50"
+                               xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAyCAYAAAAjrenXAAAGA0lEQVRogcWaeYwURRTGf7vTIywIoi5RiIgHQRFv8YoIBhOiIgoCKvKHGo1nAmJiVNR4X2iiRkERA/oPaBSjQjwJeJKAtwaNIqerohh0WdiF3Zld8+BrKDtdPT0XfEmnu7q6qr9+9epdMzVrPz6HCuFB4EDgqkpNmISgvb2jUnONAA7ZjcTbd8d7Ko4gny9J4l2BG4Euzj1Tk87APc69VuB54G/gAuDEMj7AJDwXWMEO4iVJ/GzgUU/f3ZF2E/A0MBvYr5SXOdgXmGzNIJfLlzJBrc7TgNc8zwwG7gcyatt5JXB1Ce/rB8wEasIbQT5Xlo7/Anzo6esRc29zwvNJ+DfaV6zEu0vaXdWu8xAk5pmd0nJQK91F/e6Gi7b/T7wtvcSfAG6K3HtIRxJ8z4wE5gGnA98Ba4FXpMO2fy4H+gLbYokXIfFDdX4baEs7yIHZeReHA1mgDzt0v5fzjiOAA7RaHuJtRW/OCXE6lwLRMZ8CnwDfA43AG8D76nvLuMkixSJoK554pfAFMMSZa7RzPUuHF0GudKtiy3wnsI+nfyvwSImrUxDlSLy3iNcmPDMf+MzTZ87kEuAloAUYC/wk1RkAHKvNGotSHRCyAhZU7e/pb9Km82GCPOpvwGLgVeB1YAxwLzAOeAfYFEu8bRdxizNOdjxdFPVqD5YjicMKEUmDUEfbdXRE7pFoxx0dvwuYkuKF8xP6GoAzdd0M/JXwrKnIBlkSM6/DgVXquw14MdGq5HdJPPR0M4D1KT4giuuAg4DVzv3TgKWe57dIPUIsdK7X6PAizqo8B3xTAvFRiv7mqG0S/7mEeVKh1LDWByN7RcpnB2t1x+gDFwELgMeBicDFwFlALm5wpYkXg0HAUcCRUs2hsvlGfBhwBrC3zw8E7f4MyKKzh4GPZJZGSmfvAHoCDwCPKbQN0UWbCmU/U5T9xGE58Kc2pFmpH2TDDV8pXmn2kUtKls0j3gr0F3FLgi8Epkoa1+hlTzljsorqkEl7IYH4B0r3Qgx0ru/T4UXQ3uElvk3HRrUbJYGtusbpC7FJoSgycVuSXl4Ogg4/8RalTKHErgdu18csVt+qyJiOImKTvbRBTRXNJp8k57Veqmgh7jLf4KDA5A3OdXNE5+LcuXnd4z1zWV+d0z9KifUNwJfAEuWvlwJP6tzdt2qFiHeWhDsUTGWdwL5Oq+LCrMDXCfP1j+mfHnlfeK5N4hfU1MSlgjsH/yHXbCnbMwp8eqs+skS2dp4zxizJswnEfegkzxtiqux6o29AUFubSLyHIkBEuF6hQS9JpE9kTEtMXpoGPSLElyaECgWJW4DzshNUval7jbKz7xYoNfTT+IlaHVu537XBLdu5RXnoPyV8qBH35gG208c77dk6DOuAcwvMfbQsxSkibj5gjYgPVXbf10PcVPI8+Y5Y1x5kMl6J70lM0IdO9rr8TCYp89peLvsc+FaxxUAtuVmPa3Xt84zloEFqudU3RxAEvoRnuw2dKasxVnHHaLWHKRhqVfpVaUySSiUR90o8TKda1c45aVZYEGr1DS4T+aTsp5DENysNCzOam1WGa1a6NUKuvxropCDPm/olSZxIaaHBCQHyKsVVC+bsLpPfiHpnEc96Jb4nUa/YvpOXeNavKlkFP3NUkbLiz0UqYQxQmnVlldRlllbX7/ITJG6u/RhlPcgcngB0k1c053FclYjPL1AGIcj6iW+Ra1+i9jLFK00qla0uEAlWFUmbs00uO4RboP8ROKyKxIYoJPD9QJao43sSk7SfZnhdfgqrMkgBk4smFeKrVVzfrLm9v3wUsuMow6+PuW9/AnivbIrxmChL5k22g0xhVTGz+KvKBWZpTlW4W1dgXD7mHN4Lq1O+alRjkincTjxIjg5DbBThcdqg41OMWahsaK7aZvNDMtNUIVie5uWxxAuEtS56Kn7okvL5lkixyH6QCrE6kiQXjZqVi4ZbXHC+Kq3dlCC7Ud/BWtqc1KNRH7AhUq7orax8XQk8wvzVPjYusLIajOW5ZhRs9RcEtZkaa5jJ8RVy0hZ4yv2RKloVi2LXB0HTf5CNmbYtWlYzAAAAAElFTkSuQmCC"/>
+                    </svg>
+                </div>
+                <div class="item-title">
+                    Офис
+                </div>
+            </div>
+
+            <div class="col page-3-item">
+                <div class="item-image">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50"
+                         height="50" viewBox="0 0 50 50">
+                        <image id="barbershop" width="50" height="50"
+                               xlink:href="data:img/png;base64,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"/>
+                    </svg>
+                </div>
+                <div class="item-title">
+                    Салон красоты
+                </div>
+            </div>
+            <div class="col page-3-item">
+                <div class="item-image">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50"
+                         height="50" viewBox="0 0 50 50">
+                        <image id="cafe" width="50" height="50"
+                               xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAFe0lEQVRogd2ZeYhVdRTHP+/dO6Pt/zTh0KphRmFQlkZloSXG2LRQFI1lQ1Zm0QIFWbYXkqFFVLa4lBNOUbQYJZqQaZsVla2iLaJtZNSklo7Ne2/ixPfW9c297/7unTeD0xceP97v/pbzvef8zu+cc3PrV5xKFTAWuAUYDuSAD4GngMeBjmpskAS/VOrs7hrnAM8BJeBtwAOOBkYAk4HTgW97gUgp7Zw9gQnAICAPnKv+AlADPAC8BtwOXAW8BTzruHZJpFuAzWmEyq1dekqa8bXAB8ARZf2fA1uBYdKIaeJR4DpgRpoNhE+BY4C/XCfkVi8enWaDccArwNMSsF7/HwMuB4YAK/Vm9wGKwMtAI3AF8G6SPMD1QBNwGvCqq2B+oVBMQ6ROrZnORzKlbcBx6l8jwSeI1JfAQyIyEHgE2BU4JGLtjcCPwFIRqYsYE0+kWEh9RsIwj/QScL7eoGnndRGZDkwE1mr8ILUPA80Ra/0J7JFVkLQaicId8lzzgVFAK3CxiP0c8lib1JoZtslRhGHay+xC/Y5CqVZ2Odxh/AERfWv05ufL/d4qYhfKRIZpXGDvK/VLwtXAmQljOuV8ZppG7NK6yJ17JOzy+wOYA9wH3Av8BOyrwS8AL5ZNtLMwGGiXCzdPFcaR+iXByA7xCx3F8cBq4CSHW7hJNh4FE/QNmdXJ0t43wDMimNZsrpSZVkKt9mzyOzqKvwIDgLP1dirhqITnZvsz9UvCGIe9tiaM6S/ZN+cWzRpqHmaeLjJXLNXh7Akc5kAyDHO7l5hGLBzYDZgFzFVIEYfJcgpjUm6WBe/r3onDCXIy1wBPBO53mwYbiSdjJtZr4e+AMzLYvCvsdl+oMGiJnEYcJsrJmPt1vkdukE1OAz7uIRIBpuml2Z7XukzwC243u2ljkrQxrxqSJsD2uEl7Tk/Qyj/wi24aCbSxQRv0Bmyv/V214qqRRrXH69ebaHQiUiw6EfGk3oZQ3yK1Pd3ndC24EkFJzqqy//RSXzKRUtHJi36vHLxemqkPxVE93feeGxG34kOLzoZleIsBK734etbTfS1uRDqdiMwG9pMHmaQY6E6lslPVZ2Zwm8Zn7fOUUgR9d2nvZCKdbkQ6lWdMV1RrprZFz+4HDgTWV6lvhl7aBmWNTvATBtWFzkIYtvnXipa3qIoSoL+e29oHd2Pu4LJ5PwC/xAkaR2QXVQnHK/aJwiaVe+aGnk1UCL9XhZdDxrlmFQuAy0Kx4X9EcrlIOS3DuwD4BFgeESD2A85TwvQVsAI4Uf/bVNPaHiNQlrk5JX4m0+8q/O1IJJ+PJNIsGz22QrLVKiEmhFoUGb8ZM6c7c/urPtCchsjuwLKEjPEdtXuXtZ8lkMg6t10W0qiy7Q7w8/nyqsy/SLryu1NHyjo3kKmL0L7nxZ3lvgXf82I10reI+H5scDlC5dBqwS7Se4ApciRRWJBQkhpRgUisRgbIi1QLo1QjXqKqZBQasu5VSSOLdCFWQluKvXJlbRQOCtWIo7AgjmwljdQ71F5x8G4BimVt1BrjEopy9Wq7mJ/v10RqxC6lkVYvchBwmcMYVMSeGvPxxtY4q0I5tly2LsGkXxNtWg36Upv0vWKdQhgX/KYyTxQeVBF7YMI6W3TGuiBOI1b0et5RwGrBXojrS+lKpCaaSJ9DpcPepxB3RvqgRmq82lDRzeVzVxyCWzfpdg6jO9FD8BnQZG/NrVo40jLBSzMutrNgtu/5niU1XwCj0xTEhKFKjCyruzEjqSmqzliW6JLLhFEbfA73fS/fT8WAjRmECCof25WCZkF7aK0sa5jsh/9/wnjPyxe6ceiCikejAr4sOFRzrMZVKWCMg8leyK1bPtYqfDc71Lh2VhSAu/8GeGWazVVaTcMAAAAASUVORK5CYII="/>
+                    </svg>
+                </div>
+                <div class="item-title">
+                    Кафе, ресторан
+                </div>
+            </div>
+            <div class="col page-3-item rounded-end ">
+                <div class="item-image">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50"
+                         height="50" viewBox="0 0 50 50">
+                        <image id="mall" width="50" height="50"
+                               xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAFBUlEQVRogdWabYhVRRjHf3t3Vte07VagvfhByGAzo4woAtNFCvqQoBiFRgX2ocjeKLboQ7YpWZCUFBkSQV8sqQjJoOgFU/tQfuoNiwosIzNKWy223L1njIn/qTnDnHvP7p5z2/3D4cw8z7kz8z/zzDzPPOd2fL/7akrCPGBmWY0VxGfAEfeoKanBk9RoZ9UjD/AysMqJjLUnymhwiki8C7xU4kCbYbNe4D8wNrFlNr4PeNGrnwIcjZQdpgJ14GdPNhtoAIdUdy/oLJnPsaCvTX6lllhLRdfSxNrBxNrFugYlc7qVibWHE2sPJdbuTKztkfzDxNpt3njmJdbuT6xd3WqMptEodUZ8nK7yI4HMzcTzwK/AduAG4E7g0fF0ZpLqiKRYHNTPBKYDTwIDInLueDsxjUYy3jbGiod0lQIzUv2MbNH91kD+KfAJcHMgdwv+HmCHJ0tndRM5MI2Rymdkm+4hke0yLZ+I25kuAJ4CvgM+l3yZrnwiI9WZ1hvAAuBb1V35APCHyoc8+RGVl2hGHPZru54LnNyqs7Jn5By9OR9zCpYvbvK7mKzLV5iRcolco6vtKNu03gReaBOJrX7FN63p49jPUxs+pkVaFIeBH1yEAZxfIOh0geGXwDAwkiHimdZzwI1jJJJiVRqNFsSw4q2Vo5jJ9cDaUOiHKD3AX8CD4yQTg9t51ijs3iv9cmCRQpYeyTYCP6p8B3AasE71acAG79mQSGaNDAfRa1lYKCLveO3PEREfW+Uk0e5nPN9RF5EowqDRsf2tAiKVwyTZ88iw1koMq7WYX4vonHncpre5K6J3Tm5FlWTC6PdPxTkxLNOOFNPXRWRXjr6veiK28qDRx2bP5qdF9HuAdNHO0LY8qHpHs4bLOrMXxVeKt1IcVDz1HvB6QT+yfSIQeTpnV/xivKZnTpxoK5F1wRpyM7IUuAx4puCMrNfsZRDmtYwWZgzdWtQx/QzdZ+foL4rIzgYuVHhzqaLfr7XhICc6RZkZRHK+fE9LIi7e2pn3OoBZLfQrWpjIWs+03KK/O9Bf7znED+Q005dQb+bjTEdHZjNwb+P2nGc3KvPxeETnEmXPNknQ9QIP5NIrAaZWyxBpFqIM6FQX09dFJEzQpehrN5FJC9PZWWvn2Fd5Nh/muxz6gV9UnqvYL3WgU5s13G4iV+lKMah1eVD12Fkm3BAORp5pO5E1wWbgSBwHXgHeKuhHjsYUxpgMkalNgsYeL3kWIo2bFuTo5+q+UL6hDGRMzRiTeQndSo7l4dQW+kWRw5KPlbpKhzFdGSIueXZFBf1cogz8w0rclYE9fhumKzsjiedZfTiPfnmBzod1nG0E8rruB4L2Zyo0+V1n+RGKI3NGN11dhRb7Bp0Qi+A64NUWz9UUIdzrLXC3G90EvD8KMv8RCUwrD+lDyz39VoXfj6k+X5Hp9ALtuUxNv8zDmdwZ8vw7FEh+M2oiXcWIpPAPNc4MfvJkg/k/y/YJ3KevwFfKHB12Ax/p69VdoxkUkTXSDszS7rfFI+HwsWK588YyhqKmVSbSLPrxSJvHwyz7RCZSCf4P06qGiDG1bi2uXnn2gchzacTq67r1m1SWfoRZFvlI4+vStvoifdX1bGwMIdL+73dJjY59by9ZlJMdnExYbExnLfWI/Tnp0ImMa4EnnIP1w/jeJhmUiYredFzuqDuk8i26JiOGHBEXrLkE2b9/GZpkGAL2/g3KXrG296qy9AAAAABJRU5ErkJggg=="/>
+                    </svg>
+                </div>
+                <div class="item-title">
+                    Магазин
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="customer-choice">
+    <div class="container wow animate__fadeInDown">
+        <div class="customer-choice-title">
+            <h2>Почему клиенты выбирают нас</h2>
+        </div>
+
+        <div class="container">
+            <div class="row row-cols-sm-1 customer-choice-items d-flex">
+
+                <div class="col-2 col-sm-1 customer-choice-item d-flex">
+                    <div class="customer-choice-image">
+                        <img src="images/1.png" alt="1">
+                    </div>
+                    <div class="customer-choice-text">
+                        <div class="customer-choice-mini-title">
+                            Соответствие готового результата
+                            желаниям и поставленной задаче
+                        </div>
+                        <div class="customer-choice-txt">
+                            Мы разрабатываем дизайн, отталкиваясь не от предпочтений дизайнера, а от конкретных задач,
+                            которые ставит клиент. В Studio88 работает целая команда дизайнеров, которая воплощает в
+                            жизнь
+                            все Ваши пожелания и задумки.
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-1 col-sm-1 customer-choice-item d-flex">
+                    <div class="customer-choice-image">
+                        <img src="images/2.png" alt="2">
+                    </div>
+                    <div class="customer-choice-text">
+                        <div class="customer-choice-mini-title">
+                            Экономия на ремонте до 50%
+                            от Вашего бюджета
+                        </div>
+                        <div class="customer-choice-txt">
+                            Помимо того, что у Studio88 есть скидки в большинстве салонов и магазинов мебели, освещения,
+                            декора и т.д., грамотный дизайн-проект значительно сокращает расходы на ремонтные работы.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-1 col-sm-1 customer-choice-item d-flex">
+                    <div class="customer-choice-image">
+                        <img src="images/3.png" alt="3">
+                    </div>
+                    <div class="customer-choice-text">
+                        <div class="customer-choice-mini-title">
+                            Согласование перепланировки в
+                            соответствии с требованиями
+                            законодательства
+                        </div>
+                        <div class="customer-choice-txt">
+                            Мы полностью берем на себя все действия и подготовку пакета документации для согласования
+                            перепланировки со всеми необходимыми ведомствами.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-2 col-sm-2 customer-choice-item d-flex">
+                    <div class="customer-choice-image">
+                        <img src="images/4.png" alt="4">
+                    </div>
+                    <div class="customer-choice-text">
+                        <div class="customer-choice-mini-title">
+                            Только реальные материалы и
+                            мебель в соответствии с бюджетом
+                        </div>
+                        <div class="customer-choice-txt">
+                            Все используемые в дизайн-проекте материалы и мебель прописываются в спецификации с
+                            указанием
+                            конкретных мест, где их можно приобрести.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-2 col-sm-2 customer-choice-item d-flex">
+                    <div class="customer-choice-image">
+                        <img src="images/5.png" alt="5">
+                    </div>
+                    <div class="customer-choice-text">
+                        <div class="customer-choice-mini-title">
+                            3D-визуализации интерьеров
+                        </div>
+                        <div class="customer-choice-txt">
+                            Благодаря 3D-визуализациям, Вы сможете увидеть готовое изображение Вашего интерьера в полном
+                            соответствии с тем, как он будет выглядеть после завершения ремонтных работ.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-2 col-sm-2 customer-choice-item d-flex">
+                    <div class="customer-choice-image">
+                        <img src="images/6.png" alt="6">
+                    </div>
+                    <div class="customer-choice-text">
+                        <div class="customer-choice-mini-title">
+                            Гарантии и обязательства
+                        </div>
+                        <div class="customer-choice-txt">
+                            Мы подписываем официальный договор, который дает Вам юридические гарантии нашей
+                            добросовестной
+                            работы. Никакого риска!
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="customer-choice-slider">
+    <div class="container wow animate__fadeInDown">
+        <div class="customer-choice-title">
+            <h2>Почему клиенты выбирают нас</h2>
+        </div>
+        <div class="customer-choice-items-1 slick-item-1 slider-2">
+
+            <div class="customer-choice-item-1">
+                <div class="customer-choice-text">
+                    <div class="customer-choice-mini-title">
+                        Соответствие готового результата
+                        желаниям и поставленной задаче
+                    </div>
+                    <div class="customer-choice-txt">
+                        Мы разрабатываем дизайн, отталкиваясь не от предпочтений дизайнера, а от конкретных задач,
+                        которые ставит клиент. В Studio88 работает целая команда дизайнеров, которая воплощает в
+                        жизнь
+                        все Ваши пожелания и задумки.
+                    </div>
+                </div>
+            </div>
+
+            <div class="customer-choice-item-1">
+                <div class="customer-choice-text">
+                    <div class="customer-choice-mini-title">
+                        Экономия на ремонте до 50%
+                        от Вашего бюджета
+                    </div>
+                    <div class="customer-choice-txt">
+                        Помимо того, что у Studio88 есть скидки в большинстве салонов и магазинов мебели, освещения,
+                        декора и т.д., грамотный дизайн-проект значительно сокращает расходы на ремонтные работы.
+                    </div>
+                </div>
+            </div>
+
+            <div class="customer-choice-item-1">
+                <div class="customer-choice-text">
+                    <div class="customer-choice-mini-title">
+                        Согласование перепланировки в
+                        соответствии с требованиями
+                        законодательства
+                    </div>
+                    <div class="customer-choice-txt">
+                        Мы полностью берем на себя все действия и подготовку пакета документации для согласования
+                        перепланировки со всеми необходимыми ведомствами.
+                    </div>
+                </div>
+            </div>
+
+            <div class="customer-choice-item-1">
+                <div class="customer-choice-text">
+                    <div class="customer-choice-mini-title">
+                        Только реальные материалы и
+                        мебель в соответствии с бюджетом
+                    </div>
+                    <div class="customer-choice-txt">
+                        Все используемые в дизайн-проекте материалы и мебель прописываются в спецификации с
+                        указанием
+                        конкретных мест, где их можно приобрести.
+                    </div>
+                </div>
+            </div>
+
+            <div class="customer-choice-item-1">
+                <div class="customer-choice-text">
+                    <div class="customer-choice-mini-title">
+                        3D-визуализации интерьеров
+                    </div>
+                    <div class="customer-choice-txt">
+                        Благодаря 3D-визуализациям, Вы сможете увидеть готовое изображение Вашего интерьера в полном
+                        соответствии с тем, как он будет выглядеть после завершения ремонтных работ.
+                    </div>
+                </div>
+            </div>
+
+            <div class="customer-choice-item-1">
+                <div class="customer-choice-text">
+                    <div class="customer-choice-mini-title">
+                        Гарантии и обязательства
+                    </div>
+                    <div class="customer-choice-txt">
+                        Мы подписываем официальный договор, который дает Вам юридические гарантии нашей
+                        добросовестной
+                        работы. Никакого риска!
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="slider-counter-1">
+            <div class="sl-count-1">
+                <span class="sl-count-current-1">1</span>/<span class="sl-count-total-1"></span></div>
+        </div>
+    </div>
+</section>
+
+
+<section class="page-4" id="page-4">
+    <div class="container wow animate__fadeInDown">
+        <div class="page-4-title">
+            <h2>Наше портфолио</h2>
+        </div>
+        <div class="page-4-tabs">
+            <ul class="nav navbar justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#dom">Частный дом</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#kvartira">Квартира</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#ofis">Офис</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#salon">Салон красоты</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#kafe">Кафе, ресторан</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#magazin">Магазин</a>
+                </li>
+            </ul>
+
+            <div class="tab-content">
+                <div class="tab-pen fade show active" id="dom">
+                    <div class="gallery-items-page-4">
+
+                        <div class="gallery-item">
+                            <img class="gallery-item-1" src="images/dom1.png" alt="dom1">
+                            <div class="gallery-text gallery-text-1">Дизайн интерьера частного дома в Киеве 300 м. кв.
+                            </div>
+                            <div class="line-hover-1"></div>
+                            <div class="line-hover-2"></div>
+                        </div>
+
+                        <div class="gallery-item">
+                            <img class="gallery-item-2" src="images/dom2.png" alt="dom1">
+                            <div class="gallery-text gallery-text-2">Дизайн интерьера частного дома в Киеве 300 м. кв.
+                            </div>
+                            <div class="line-hover-1"></div>
+                            <div class="line-hover-2"></div>
+                        </div>
+
+                        <div class="gallery-item ">
+                            <img class="gallery-item-3" src="images/dom3.png" alt="dom1">
+                            <div class="gallery-text gallery-text-3">Дизайн интерьера частного дома в Киеве 300 м. кв.
+                            </div>
+                            <div class="line-hover-1"></div>
+                            <div class="line-hover-2"></div>
+                        </div>
+
+                        <div class="gallery-item ">
+                            <img class="gallery-item-4" src="images/dom4.png" alt="dom1">
+                            <div class="gallery-text gallery-text-4">Дизайн интерьера частного дома в Киеве 300 м. кв.
+                            </div>
+                            <div class="line-hover-1"></div>
+                            <div class="line-hover-2"></div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-pos">
+                        <div class="gallery-items-pos">
+                            <div class="gallery-item-pos">
+                                <div class="kartinka-dom-5">
+                                    <img src="images/dom5.png" alt="dom1">
+                                    <div class="gallery-text">Дизайн интерьера частного дома в Киеве 300 м. кв.</div>
+                                    <div class="line-hover-1"></div>
+                                    <div class="line-hover-2"></div>
+                                </div>
+                            </div>
+
+                            <div class="gallery-item-pos">
+                                <div class="kartinka-dom-6">
+                                    <img src="images/dom6.png" alt="dom1">
+                                    <div class="gallery-text">Дизайн интерьера частного дома в Киеве 300 м. кв.
+                                    </div>
+                                    <div class="line-hover-1"></div>
+                                    <div class="line-hover-2"></div>
+                                </div>
+                            </div>
+
+                            <div class="gallery-item-pos">
+                                <div class="kartinka-dom-7">
+                                    <img src="images/dom7.png" alt="dom1">
+                                    <div class="gallery-text">Дизайн интерьера частного дома в Киеве 300 м. кв.
+                                    </div>
+                                    <div class="line-hover-1"></div>
+                                    <div class="line-hover-2"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gallery-info">
+                        <div class="gallery-info-items">
+                            <div class="gallery-info-item-1">
+                                <div class="gallery-info-link"></div>
+                                <div class="gallery-info-text">В Украине мы выполнили уже более 300 проектов.</div>
+                            </div>
+                            <div class="gallery-info-item-2">
+                                <div class="gallery-info-link"></div>
+                                <div class="gallery-info-text">И более 2 500 проектов по всему миру.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-pen fade" id="kvartira"></div>
+                <div class="tab-pen fade" id="ofis"></div>
+                <div class="tab-pen fade" id="salon"></div>
+                <div class="tab-pen fade" id="kafe"></div>
+                <div class="tab-pen fade" id="magazin"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="tab-content-sliders">
+    <div class="container wow animate__fadeInDown">
+        <div class="tab-content-slider">
+            <div class="tab-pen-2 fade show active" id="dom2">
+                <div class="gallery-items-page-4 slick-item-2 slider-3">
+
+                    <div class="gallery-item-1">
+                        <p><img class="gallery-item-1" src="images/dom-1-slider.png" alt="dom1"></p>
+                    </div>
+
+                    <div class="gallery-item-2">
+                        <img class="gallery-item-2" src="images/dom2.png" alt="dom1">
+                    </div>
+
+                    <div class="gallery-item-3">
+                        <img class="gallery-item-3" src="images/dom3.png" alt="dom1">
+                    </div>
+
+                    <div class="gallery-item-4">
+                        <img class="gallery-item-4" src="images/dom4.png" alt="dom1">
+                    </div>
+
+                    <div class="gallery-item-5">
+                        <img class="gallery-item-5" src="images/dom5.png" alt="dom1">
+                    </div>
+
+                    <div class="gallery-item-6">
+                        <img class="gallery-item-6" src="images/dom6.png" alt="dom1">
+                    </div>
+
+                    <div class="gallery-item-7">
+                        <img class="gallery-item-7" src="images/dom7.png" alt="dom1">
+                    </div>
+                </div>
+
+
+                <div class="slider-counter-2">
+                    <div class="sl-count-2">
+                        <span class="sl-count-current-2">1</span>/<span class="sl-count-total-2"></span></div>
+                </div>
+
+                <div class="gallery-info-1">
+                    <div class="gallery-info-items-1">
+                        <div class="gallery-info-item-1-1">
+                            <div class="gallery-info-link-1"></div>
+                            <div class="gallery-info-text-1">В Украине мы выполнили уже более 300 проектов.</div>
+                        </div>
+                        <div class="gallery-info-item-2-1">
+                            <div class="gallery-info-link-2"></div>
+                            <div class="gallery-info-text-2">И более 2 500 проектов по всему миру.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<section class="interior">
+    <div class="container wow animate__fadeInDown">
+        <div class="interior-title">
+            <h2>Как мы делаем дизайн интерьера</h2>
+        </div>
+
+        <div class="interior-content d-flex">
+            <div class="interior-video">
+                <iframe src="https://www.youtube.com/embed/gQjPyh8kwbo"
+                        title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+            </div>
+            <div class="interior-text">
+                <div class="interior-text-1">
+                    <p>Множество дизайнеров умеют рисовать красивые картинки, сыпать модными терминами и убеждать Вас
+                        выбрать то, что они нарисовали для Вас.
+                    </p>
+                </div>
+
+                <div class="interior-text-2">
+                    <p>Мы понимаем задачу разработки дизайн-проекта иначе – Вам должно быть удобно и комфортно в Вашем
+                        жилище. Это может быть целая квартира, или комната для подростка, или детская для девочки, или
+                        загородный дом для большой семьи – независимо от типа помещения, мы сумеем совместить Ваши
+                        пожелания, эстетику и функциональность.
+                    </p>
+                </div>
+
+                <div class="interior-text-co-founder">
+                    <div class="interior-text-co-founder-title">
+                        <p>«Позвольте себе доверить заботу
+                            о дизайне профессионалам»</p>
+                    </div>
+                    <div class="interior-text-co-founder-text">
+                        <p>Алексей, соучредитель
+                            STUDIO88, Украина</p>
+                    </div>
+                    <div class="interior-text-co-founder-line-1"></div>
+                    <div class="interior-text-co-founder-line-2"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="customer-reviews">
+    <div class="container container-sm wow animate__fadeInDown">
+        <div class="customer-reviews-title">
+            <h2>Отзывы наших клиентов</h2>
+        </div>
+
+        <div class="customer-reviews-content">
+
+            <div class="slick-track slider single-item">
+
+                <div class="slide-center">
+                    <div class="customer-slide">
+                        <img class="customer-skob" src="images/skob1.svg" alt="skob1">
+                        <img class="customer-skob1" src="images/skob1.svg" alt="skob1">
+
+                        <img class="customer-image" src="images/customer1.png" alt="customer">
+
+                        <div class="customer-otziv">
+                            Однозначно мастера своего дела! Заказывали дизайн интерьера квартиры сыну и себе для
+                            частного
+                            дома, всё выполнили отлично.
+                        </div>
+
+                        <div class="customer-name">
+                            Ирина, постоянный
+                            клиент, г.Киев
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="slide-center">
+                    <div class="customer-slide">
+                        <img class="customer-skob" src="images/skob1.svg" alt="skob1">
+                        <img class="customer-skob1" src="images/skob1.svg" alt="skob1">
+                        <img class="customer-image" src="images/customer2.png" alt="customer">
+
+                        <div class="customer-otziv">
+                            Очень приятная команда дизайнеров, во всём прислушиваются к своим клиентам!
+                        </div>
+
+                        <div class="customer-name">
+                            Галина, постоянный
+                            клиент, г.Ровно
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slide-center">
+                    <div class="customer-slide">
+                        <img class="customer-skob" src="images/skob1.svg" alt="skob1">
+                        <img class="customer-skob1" src="images/skob1.svg" alt="skob1">
+                        <img class="customer-image" src="images/customer3.png" alt="customer">
+
+                        <div class="customer-otziv">
+                            Качественная работа, аккуратные и исполнительные работники. Всё успели в указанные сроки!
+                        </div>
+
+                        <div class="customer-name">
+                            Роман, постоянный
+                            клиент, г.Львов
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slide-center">
+                    <div class="customer-slide">
+                        <img class="customer-skob" src="images/skob1.svg" alt="skob1">
+                        <img class="customer-skob1" src="images/skob1.svg" alt="skob1">
+                        <img class="customer-image" src="images/customer1.png" alt="customer">
+
+                        <div class="customer-otziv">
+                            Очень приятная команда дизайнеров, которая знает свое дело. Все сделали в срок!
+                        </div>
+
+                        <div class="customer-name">
+                            Маргарита, постоянный
+                            клиент, г.Львов
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slide-center">
+                    <div class="customer-slide">
+                        <img class="customer-skob" src="images/skob1.svg" alt="skob1">
+                        <img class="customer-skob1" src="images/skob1.svg" alt="skob1">
+                        <img class="customer-image" src="images/customer2.png" alt="customer">
+
+                        <div class="customer-otziv">
+                            Все очень быстро и качественно, точно профессионалы своего дела. Рекомендую!
+                        </div>
+
+                        <div class="customer-name">
+                            Светлана, постоянный
+                            клиент, г.Киев
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slide-center">
+                    <div class="customer-slide">
+                        <img class="customer-skob" src="images/skob1.svg" alt="skob1">
+                        <img class="customer-skob1" src="images/skob1.svg" alt="skob1">
+                        <img class="customer-image" src="images/customer3.png" alt="customer">
+
+                        <div class="customer-otziv">
+                            Прислушиваются к клиентам и делают все быстро. Все сделано в срок!
+                        </div>
+
+                        <div class="customer-name">
+                            Иван, постоянный
+                            клиент, г.Львов
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slider-counter">
+                <div class="sl-count">
+                    <span class="sl-count-current">1</span>/<span class="sl-count-total"></span></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="page-form">
+    <div class="container d-flex wow animate__fadeInDown">
+
+        <div class="form-left">
+            <div class="form-title">
+                <h2>Мы создаем уникальные дизайн-проекты</h2>
+            </div>
+
+            <div class="form-text">
+                Для создания каждого интерьера мы выбираем дизайнера, который имеет опыт в таком стиле и формате
+                объекта. Наши интерьеры разрабатываются с учетом всех мировых трендов.
+            </div>
+
+            <div class="form-image">
+                <img src="images/page-form.png" alt="divan">
+            </div>
+        </div>
+
+        <div class="form-right">
+            <div class="logo">
+                <img src="images/logo.png" alt="Logo">
+            </div>
+            <div class="forms-title">
+                Запишитесь на консультацию
+            </div>
+            <div class="forms-inputs mb-3">
+
+                <div class="wrap">
+                    <input id="your_name" class="form-input mb-3" type="text" placeholder="Ваше имя">
+                    <div class="error-input-1">Введите Ваше имя</div>
+
+                </div>
+                <div class="wrap">
+                    <input id="your_phone" class="form-input" type="text" placeholder="Ваш телефон">
+                    <div class="error-input-2">Введите номер телефона</div>
+                </div>
+            </div>
+
+            <div class="forms-button hvr-grow">
+                <button id="submit" class="frms-btn" href="#">Записаться</button>
+            </div>
+
+            <div class="forms-agree">
+                <label for="agree">
+                    <input type="checkbox" name="agree" id="agree">
+                    <span id="agree-form-text">Я согласен(а) с обработкой
+                    персональных данных</span>
+                </label>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="message-form d-none">
+    <div class="container">
+        Спасибо, мы свяжемся с вами в ближайшее время!
+    </div>
+</section>
+
+<section class="footer">
+    <div class="container">
+        <div class="footer-containers d-flex">
+
+            <div class="footer-left footer-first">
+                <div class="logo">
+                    <img src="images/logo.png" alt="Logo">
+                </div>
+
+                <div class="footer-messages">
+                    <img class="me-3" src="images/facebook.svg" alt="facebook" style="height: 25px; width: 25px">
+                    <img class="me-3" src="images/instagram.svg" alt="instagram" style="height: 25px; width: 25px">
+                    <img class="me-3" src="images/vk.svg" alt="vk" style="height: 25px; width: 25px">
+                    <img src="images/youtube.svg" alt="youtube" style="height: 25px; width: 25px">
+                </div>
+            </div>
+
+            <div class="footer-next">
+                <div class="footer-ofis d-flex">
+                    <div class="place-ofis pe-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16"
+                             height="20"
+                             viewBox="0 0 16 20">
+                            <image id="pin" width="16" height="20"
+                                   xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAUCAYAAACEYr13AAAB2UlEQVQ4jXXTS4iOYRQH8J+PTEmf62TzUdTYjGsxNa5ZuKwol4VLCFtZ21jYKCu5FSsRG5eiJGYiiSmzcA0liRCDBaJs0NF59fbO619Pz9N5zv38z5BWq6WCWdiGJZiYX29xG6dwq6w+rPQeiSPYnEqn8Qy/0ZEOb+IStuNzGBUZNNGDCdiSinWYnY4bWIiPhYOzmIsFeJOG0zAv33fwON+j0IfXWBElLMZazE/jETiBdXieRh0ZZCu+YD3uYXkj67mRUQLHMnIXpubpStnx1HmAK1FuI9O+nB+TsAk70F/qQX8G2pg6gV50h4NxeJXCzrx7ahrYW9EJmzHh4AfGpvB93lNqHBSyD3mHzc9G1tNdqu0JDqCtZNyWsvi7n7LoycMYY7DuECZjADNwLbt9PpXXYDSWhhHa8RK7wsHwFD7F6mTeeOwsZdaXQT4F+XAhedJZEGlO0ncf9tbUX8Ye7MaimM7QZjNY7F2mdBCPMps6RIZHk1BXVZbpTNYfG/ciG1rGTJzE/tT9i+o6x1QuYnqybyDl7UmmyG4VfpUNyoiPDfiOc4gGx4lphCyY+M+4WkKBb1iJuzicU4mOx7Z+rSrXOQhED2Ibgw+BZSkbhP85CFwPopTeg4E/ydxrdK6DNMQAAAAASUVORK5CYII="/>
+                        </svg>
+                    </div>
+                    <div class="footer-place">
+                        <div class="footer-adress pb-1">Наш офис в Киеве: г. Киев, ул. Гоголя 3</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-next-2 d-flex">
+                <div class="footer-clock pe-2">
+                    <img src="images/clock.svg" alt="clock" style="height: 20px; width: 20px">
+                </div>
+                <div class="footer-nex-2-text">
+                    <div class="footer-time pb-1">Время работы: с 9.00 до 21.00 Без выходных</div>
+                </div>
+            </div>
+
+            <div class="footer-next-3 d-flex">
+                <div class="footer-email pe-2">
+                    <img class="align-items-center" src="images/email.svg" alt="email"
+                         style="height: 20px; width: 20px">
+                </div>
+                <div class="footer-next-3-text">
+                    <div class="pb-1">Напишите нам partner@studio88.ua</div>
+                </div>
+            </div>
+
+            <div class="footer-next-4 d-flex">
+                <div class="phone pe-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18"
+                         height="18"
+                         viewBox="0 0 18 18">
+                        <image id="phone-call" width="18" height="18"
+                               xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAABQ0lEQVQ4jZXTsUtWURjH8Y8aakivbga+uIUNOQkOjg6CKOQiYjg4uBQ0N7S3tBnUIKI46OAgrqJOidig6WJ/gEtERKFDmCEHzoXL5bz6nt90+T3nfO+P8zxPS71ehzYsYg77mMdvGWqNkDW8Qg1T2EF3Lug9XlT84VxYAM02qAXYhxxQxx31Jzmgswa1C7zNAW0l/HM8jR1sGrSSaPUhrpqFFKA/eFfxx/EwB9RWq4XRcYTneBz9R3iA3ZxEQf8wg8tS7Q1eJu6Mxx9vlOesSBT0E98wjZboTaAHn3Edv0PKATzDKDbxt9i1shawVPF+YA8j6K/UvmCsnKjQcZyhyVKyrpggtTJ9GEyBgk5wGmHtqQMV9RaPndI2hvC1CdBqo0SFQgOW43CGJe5MnFkP3b0PFPQfB/iE7/G9wqVf+IjXuLkF4Og3HmlIiIsAAAAASUVORK5CYII="/>
+                    </svg>
+                </div>
+
+                <div class="header-phone-button">
+                    <div class="phone">+38 (29) 193-23-46</div>
+                    <div class="header-button hvr-grow">
+                        <a class="hdr-btn pb-1" href="#popup-header">Заказать звонок</a>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<div class="loader">
+    <div class="lds-spinner">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+</div>
+
+<div id="popup-header" class="popup mfp-hide">
+    <div class="popup-header">
+        <div class="logo-popup">
+            <img src="images/logo.png" alt="Logo">
+        </div>
+        <div class="forms-title-popup">
+            Оставить заявку
+        </div>
+        <div class="forms-inputs-popup mb-3">
+
+            <div class="wrap-popup">
+                <input id="your_name_popup" class="form-input mb-3" type="text" placeholder="Ваше имя">
+                <div class="error-input-1-popup">Введите Ваше имя</div>
+
+            </div>
+            <div class="wrap-popup">
+                <input id="your_phone_popup" class="form-input" type="text" placeholder="Ваш телефон">
+                <div class="error-input-2-popup">Введите номер телефона</div>
+            </div>
+        </div>
+
+        <div class="forms-button-popup hvr-grow">
+            <button id="submit-popup" class="frms-btn" href="#">Оформить заказ</button>
+        </div>
+
+        <div class="forms-agree">
+            <label for="agree-popup">
+                <input type="checkbox" name="agree" id="agree-popup">
+                <span id="agree-form-text-popup">Я согласен(а) с обработкой
+                    персональных данных</span>
+            </label>
+        </div>
+    </div>
+    <div class="message-form-popup">
+        <div class="container">
+            Спасибо, мы свяжемся с вами в ближайшее время!
+        </div>
+    </div>
+</div>
+
+<section class="message-form-popup">
+    <div class="container">
+        Спасибо, мы свяжемся с вами в ближайшее время!
+    </div>
+</section>
+
+
+<script src="scripts/bootstrap.min.js"></script>
+<script src="scripts/jquery-3.6.3.min.js"></script>
+<script src="scripts/jquery.magnific-popup.min.js"></script>
+<script src="scripts/slick.min.js"></script>
+<script src="scripts/wow.min.js"></script>
+<script src="scripts/less.js"></script>
+<script src="scripts/script.js"></script>
+</body>
+</html>
